@@ -57,7 +57,7 @@ footer {
 }
 @media (max-width: 768px) {
   .footer__item {
-    width: 45%; /* Два блока в ряд на телефоне */
+    width: 45%;
     height: auto;
     padding: 10px;
   }
@@ -71,3 +71,4 @@ footer {
     width: 2.5vw;
 
 }
+
