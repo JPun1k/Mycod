@@ -24,17 +24,22 @@ h1 {
 }
 p {
     font-family: "Aboreto", system-ui;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 400;    
     font-style: normal;
 }
 main {
     width: 100%;
+    height: 50vh;
     background: white;
-    margin-bottom: 30px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .content__item {
     width: 100%;
+    padding: 3vh;
 }
 .main__content, footer {
     display: flex;
@@ -43,7 +48,6 @@ main {
 footer {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
 }
 .footer__item {
     width: 20%;
@@ -54,21 +58,20 @@ footer {
     background:  #545452;
     border-radius: 30em;
 }
-@media (max-width: 768px) {
-  .footer__item {
-    width: 45%;
-    height: auto;
-    padding: 10px;
-  }
-}
 .main__img {
-    height: 50vh;
     display: flex;
     justify-content: center;
 }
-.img__ {
-    width: 2.5vw;
+.img_m {
+    height: 60vh;
+    position: absolute;
+    left: 50%;
+    top: 20px;
 }
+.img__ {
+    width: 3.5vw;
+}
+
 
 
 
